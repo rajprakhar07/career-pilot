@@ -193,6 +193,8 @@ export default function JobSearch() {
   <button
     type="button"
     onClick={() => setSearchQuery('')}
+    aria-label="Clear search"
+
     className="absolute right-4 top-1/2 transform -translate-y-1/2 text-neutral-500 hover:text-white transition-colors"
   >
     <X className="w-5 h-5" />
